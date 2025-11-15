@@ -5,9 +5,10 @@ import '../css/Contributors.css';
 import ContributorModal from './ContributorModal'; 
 
 // --- Define your repo details ---
-const REPO_OWNER = 'abhishekkumar177';
+const REPO_OWNER = 'bidyut26maji';
 const REPO_NAME = 'FoodSaver';
-const PROJECT_LEAD = 'abhishekkumar177'; // Your GitHub username
+const PROJECT_LEAD = 'bidyut26maji';
+const PROJECT_CO_LEAD = 'abhishekkumar177';
 
 const Contributors = () => {
   const [stats, setStats] = useState({
@@ -60,15 +61,6 @@ const Contributors = () => {
             prCounts[pr.user.login] = (prCounts[pr.user.login] || 0) + 1;
           }
         });
-
-        // --- 2. Process Commits for Timeline ---
-        const formattedActivity = commitsData.map(commit => ({
-          sha: commit.sha,
-          message: commit.commit.message.split('\n')[0], // Get first line of message
-          author: commit.commit.author.name,
-          date: new Date(commit.commit.author.date).toLocaleDateString(),
-        }));
-        setActivity(formattedActivity);
 
         // --- 3. Process Contributors ---
         let totalCommits = 0;
@@ -292,28 +284,6 @@ const Contributors = () => {
                 </button>
               </div>
             )}
-
-            {/* --- Dynamic Activity Timeline --- */}
-            <div id="activityTimeline" className="timeline-container">
-              <h2>Recent Contribution Activity</h2>
-              <div id="timelineContent" className="timeline-content">
-                {activity.length > 0 ? (
-                  activity.map(item => (
-                    <div className="timeline-item" key={item.sha}>
-                      <div className="timeline-content-item">
-                        <div className="timeline-date">{item.date}</div>
-                        <h3 className="timeline-title-item">{item.author}</h3>
-                        <p className="timeline-desc">{item.message}</p>
-                      </div>
-                      <div className="timeline-dot"></div>
-                    </div>
-                  ))
-                ) : (
-                  !isLoading && <p>No recent activity found.</p>
-                )}
-              </div>
-            </div>
-            
           </div>
         </section>
 
