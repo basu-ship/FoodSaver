@@ -6,6 +6,36 @@ A modern React application that connects restaurants with NGOs to reduce food wa
 
 <img src="https://github.com/Mayur-Pagote/README_Design_Kit/blob/730d340c8008758ac291ebc555f818f851feda0f/Assets/RGB%20Line%20Thick.gif" width="100%" />
 
+## 📑 Table of Contents
+
+- [Project Vision & Impact](#project-vision--impact)
+  - [Our Mission](#our-mission)
+  - [The Problem We're Solving](#the-problem-were-solving)
+  - [Real-World Impact](#real-world-impact)
+  - [Who Benefits](#who-benefits)
+- [Features](#-features)
+- [Pages](#-pages)
+- [Technologies Used](#-technologies-used)
+- [Architecture](#architecture)
+- [Installation](#-installation)
+- [Project Structure](#-project-structure)
+- [Design System](#-design-system)
+- [Available Scripts](#-available-scripts)
+- [Responsive Design](#-responsive-design)
+- [Key Features](#-key-features)
+- [Deployment](#-deployment)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Connect with the Maintainer](#-connect-with-the-maintainer)
+- [Contributors](#contributors)
+- [Stargazers](#stargazers)
+- [Forkers](#forkers)
+- [Support the Project](#-support-the-project)
+- [Support](#-support)
+- [Acknowledgments](#-acknowledgments)
+* [Contributing](#contributing)
+
+
 ## 🌍 Project Vision & Impact
 
 ### Our Mission
@@ -59,6 +89,12 @@ A modern React application that connects restaurants with NGOs to reduce food wa
 - **CSS3**: Custom styling with CSS variables and modern layout techniques
 - **JavaScript ES6+**: Modern JavaScript features
 - **HTML5**: Semantic HTML structure
+
+## Architecture
+   Here's a visual representation of the app's architecture:
+
+   ![Architecture Diagram](docs/architecture-diagram.png)
+
 
 <img src="https://github.com/Mayur-Pagote/README_Design_Kit/blob/730d340c8008758ac291ebc555f818f851feda0f/Assets/RGB%20Line%20Thick.gif" width="100%" />
 
@@ -253,6 +289,11 @@ For support and questions:
 - Haldia Institute of Technology for supporting this initiative
 - Government of West Bengal for their partnership
 - All the restaurants and NGOs who make this platform possible
+
+
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute to FoodSaver.
 
 ---
 
